@@ -1,8 +1,6 @@
 @extends('products.layout')
  
 @section('content')
-<body>
-    @section('header')
     <div class="container-fluid row mainname">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
@@ -48,7 +46,6 @@
         </tr>
         @endforeach
     </table>
-</body>
     {!! $products->links() !!}
       
 @endsection
